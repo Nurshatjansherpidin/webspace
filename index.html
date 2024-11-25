@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Nurshatjan Sherpidin!</h1>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:nsherpidin@gmail.com">email</a></li>
-        		<li><a href="https://github.com/Nurshatjansherpidin">github.com/Nurshatjansherpidin</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurshatjan Sherpidin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#articles">Articles</a></li>
+            </ul>
+        </nav>
+        <h1>Nurshatjan Sherpidin</h1>
+        <p>Exploring ideas, sharing insights, and crafting stories.</p>
+    </header>
+    
+    <section id="about">
+        <h2>About</h2>
+        <p>Welcome! I’m Nurshatjan. This space is for my thoughts, articles, and projects. Stay tuned!</p>
+    </section>
+    
+    <section id="articles">
+        <h2>Articles</h2>
+        <input type="text" id="search" placeholder="Search articles..." oninput="filterArticles()">
+        <ul id="article-list">
+            <li><a href="#">Article 1: Introduction to Something</a></li>
+            <li><a href="#">Article 2: Deep Dive into a Concept</a></li>
+            <li><a href="#">Article 3: Reflections on a Journey</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 Nurshatjan Sherpidin. Hosted on <a href="https://github.com">GitHub</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
